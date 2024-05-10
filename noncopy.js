@@ -2,7 +2,7 @@ function FSAddOriginalLink(){
     var body_element = document.getElementsByTagName('body')[0];
     var selection;
     selection = window.getSelection();
-    var pagelink = "<br/><br/><a href='https://tritue.vn'>Tritue.vn</a>";
+    var pagelink = "<br/><br/><a href='https://tritue.vn'>Quà tặng sự kiện Tritue.vn</a>";
     var copytext = pagelink;
     var newdiv = document.createElement('div');
     newdiv.style.position='absolute';
