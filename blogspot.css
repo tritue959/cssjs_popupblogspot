@@ -301,7 +301,7 @@ z-index: 100;
 
 ul.menu ul li a {
 display: block;
-color: #fff;
+color: #222;
 font-weight: 400;
 text-transform: uppercase;
 padding: 9px 20px 8px;
@@ -1122,8 +1122,8 @@ div.post-content {
   
 }
 ul.menu ul {
-    background: #0A863E;
-    
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, .15);
     border-bottom: 5px solid #0A863E;
     
 }
@@ -1144,10 +1144,10 @@ border-top:none;
     font-weight: light;
 }
 .footer h2 {
-    color: #F48220;font-weight:bold;
+    color: #222;font-weight:bold;
     font-size: 16px;
 }
-  .jfk-button-action{ background:#F48220 !important;}
+  .jfk-button-action{ background: #e5001f !important; border-radius: 6px !important;}
 
 
 .footer-credits {
@@ -1170,7 +1170,7 @@ height:auto;
    
 }
 ul.menu ul li a:hover {
-    background: #F48220;
+    background: #22222226;
 
 }
 ul.menu ul li {
