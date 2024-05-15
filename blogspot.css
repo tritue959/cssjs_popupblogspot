@@ -931,6 +931,8 @@ float:right;
     padding: 5px;
     width: 80%;
     font-size: 16px;
+	border-radius: 6px;
+	box-shadow: none;
 }
   .ss-question-list{
 margin:0 !important;
