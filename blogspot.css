@@ -1399,3 +1399,57 @@ height:60px;
 @media screen and (max-width: 320px) {
 
 }
+/*Hotline mới*/
+.float-contact 
+{
+  position: fixed;
+  top: 50%;
+  right: 50px;
+  z-index: 99999;
+}
+.chat-zalo, .chat-facebook, .call-hotline 
+{
+  display: block;
+  margin-bottom: 20px;
+	margin-left: 5px;
+  line-height: 0;
+}
+.call-hotline {
+	animation: glowing-btn-green 2s infinite;
+	border-radius:999px;
+}
+@keyframes glowing-btn-green {
+	0% {
+		box-shadow: 0 0 0 0 #0bd03c80;
+	}
+	100% {
+		box-shadow: 0 0 0 8px rgba(233, 9, 0, 0);
+	}
+}
+.chat-zalo {
+	animation: glowing-btn-blue 2s infinite;
+	border-radius:999px;
+}
+@keyframes glowing-btn-blue {
+	0% {
+		box-shadow: 0 0 0 0 #0068ff80;
+	}
+	100% {
+		box-shadow: 0 0 0 8px rgba(0, 104, 255, 0);
+	}
+}
+@media (max-width: 480px) 
+{
+  .chat-zalo, .chat-facebook, .call-hotline
+ {
+    display: inline-block;
+  }
+	.float-contact 
+{
+  position: fixed;
+  top: 60%;
+  right: 5px;
+  z-index: 99999;
+}
+}
+/*End Hotline*/
