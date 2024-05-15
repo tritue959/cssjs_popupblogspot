@@ -308,8 +308,8 @@ padding: 9px 20px 8px;
 }
 ul.menu ul li a:hover {
     background: #2ecc71;
-    color: #fff;
-    font-weight: 400;
+    color: #222;
+    font-weight: 700;
 }
 
 ul.menu > li > ul > li:first-child > a:before {
