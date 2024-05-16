@@ -163,7 +163,7 @@ display: block;
 text-decoration: none;
 transition: all 200ms linear;
 padding: 5px 15px;
-color:#2c3e50;
+color:#222222;
 }
 
 .infa {
@@ -215,7 +215,7 @@ line-height: 50px;
 ******************************************/
 
 .menu-full {
-background: #2c3e50;
+background: #222222;
 color: #fff;
 width: 100%;
 position: relative;
@@ -286,13 +286,13 @@ opacity: 1;
 
 
 ul.menu ul {
-background:#2c3e50;
+background:#222222;
 display:none;
 position: absolute;
 width: 190px;
 line-height: 1.785em;
 left: 0;
-border-bottom: 5px solid #2c3e50;
+border-bottom: 5px solid #222222;
 padding: 6px 0 0;
 margin: 0;
 z-index: 10;
@@ -329,7 +329,7 @@ border-color: transparent transparent #3D3D3D transparent;
 
 
 ul.menu ul li:first-child {
-border-top: 5px solid #2c3e50;
+border-top: 5px solid #222222;
 }
 ul.menu ul li {
 padding: 0 5px;
@@ -626,7 +626,7 @@ white-space: nowrap;
 margin: 0 5px 5px 0;
 padding: 7px 10px;
 background: #e74c3c;
-/*background:#2c3e50;*/
+/*background:#222222;*/
 overflow: hidden;
 font-weight: 300;
 text-transform: lowercase;
@@ -788,7 +788,7 @@ color: #ccc;
 Footer CSS
 ******************************************/
 #footer {
-background: #2c3e50;
+background: #222222;
 width: 100%;
 color: #FFFFFF;
 border-top: 5px solid #e74c3c;
@@ -1011,7 +1011,7 @@ a.post-thumb span{display:none}
 #menu-select{display:block}
   ul.menu li{width:100%;}
   #menu-box{display:none;}
-  .mnopen{display:block !important; background:#2c3e50; overflow:hidden;}
+  .mnopen{display:block !important; background:#222222; overflow:hidden;}
   #menu.fixed{position: fixed;top: 0;width: 100%;}
   .anmobile{display:none !important}
   ul.menu {
@@ -1123,7 +1123,7 @@ div.post-content {
 }
 
 .meta span:last-child {
-    background: #F48220;
+    background: #e5001f;
   
 }
 ul.menu ul {
@@ -1133,7 +1133,7 @@ ul.menu ul {
     
 }
 #menu-box &gt; nav &gt; ul &gt; li &gt; a:hover {
-    background:#F48220;
+    background:#e5001f;
 }
 div#header-layout-2 {
     background: #e0e0e0;
