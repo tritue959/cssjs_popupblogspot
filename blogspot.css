@@ -527,7 +527,7 @@ line-height: normal;
 clear: both;
 }
 #blog-pager a {
-background: #2c3e50;
+background: #222;
 color: #fff;
 padding: 8px 10px;
 border-radius: 3px;
@@ -921,7 +921,7 @@ padding:5px;
 }
 
 .meta span:last-child{
-background:#E74C3C;
+background:#222;
 color:#fff;
 float:right;
 }
